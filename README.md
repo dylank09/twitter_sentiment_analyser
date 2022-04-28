@@ -20,10 +20,11 @@ The output of the script is a an object:
         countNeutral
     }
 ```
+It also prints out the word "POSITIVE", "NEGATIVE", or "NEUTRAL" based on the percentage of positive sentiment predictions
 
 ### How to use
 
 1. Download this script (you will need access to the model.h5 and tokenizer.pkl files)
 2. Run the following command on the command line, inputting your chosen search term instead of the curly braces
    `python twitter_sentiment_analyser.py -search {SEARCHTERM}`
-3. Wait until the code is finished executing and observe the returned result
+3. Wait until the code is finished executing and observe the result
