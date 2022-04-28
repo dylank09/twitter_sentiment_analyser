@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+.git
+
+*.pkl
+*.h5
+*.w2v
+*.ipynb
+*.csv
