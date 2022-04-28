@@ -1,12 +1,25 @@
 # Twitter Sentiment Analyser
 
-I created a Keras Sequential model including an embedding layer and trained it on (this dataset)[https://www.kaggle.com/datasets/kazanova/sentiment140] containing 1.6 million tweets
+I created a Keras Sequential model including an embedding layer and trained it on [this dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) containing 1.6 million tweets
 
 The model achieved approx. 80% accuracy on the dataset.
 
 I then saved the model and the tokenizer that I created and fit on the data
 
 The python script `twitter_sentiment_analyser.py` reads in the model and the tokenizer and uses them to predict the sentiment of a given Twitter search term
+
+The script uses the twitter api to search for the given search term and returns the most recent and most popular 1000 tweets relevant to the search term.
+
+The output of the script is a an object:
+```
+    result: {
+        averageScore,
+        totalPreds,
+        countPositives,
+        countNegatives,
+        countNeutral
+    }
+```
 
 ### How to use
 
