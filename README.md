@@ -4,7 +4,7 @@ I created a Keras Sequential model including an embedding layer and trained it o
 
 The model achieved approx. 80% accuracy on the dataset.
 
-I then saved the model and the tokenizer that I created and fit on the data
+I then saved the model and the tokenizer that I created and fitted on the data
 
 The python script `twitter_sentiment_analyser.py` reads in the model and the tokenizer and uses them to predict the sentiment of a given Twitter search term
 
